@@ -209,9 +209,8 @@ app.listen(PORT, HOST, () => {
   console.log('='.repeat(50));
   console.log('🚀 GraphQL Server Started!');
   console.log('='.repeat(50));
-  console.log(`📡 Local:            http://localhost:${PORT}/graphql`);
-  console.log(`🌐 Network:          http://10.10.23.38:${PORT}/graphql`);
-  console.log(`💓 Health Check:     http://localhost:${PORT}/health`);
+  console.log(`📡 Port:             ${PORT}`);
+  console.log(`💓 Health Check:     /health`);
   console.log('='.repeat(50));
   console.log('👥 Team members can access via the Network URL above!');
   console.log('');
